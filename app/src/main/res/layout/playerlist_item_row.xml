@@ -30,7 +30,6 @@
             android:textColor="@drawable/list_item_textcolor"
             android:textSize="14sp"
             android:textStyle="bold" />
-
     </RelativeLayout>
 
 </RelativeLayout>

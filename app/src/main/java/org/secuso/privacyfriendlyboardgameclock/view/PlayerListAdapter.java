@@ -17,6 +17,12 @@ public class PlayerListAdapter extends ArrayAdapter { //--CloneChangeRequired
     private List mList; //--CloneChangeRequired
     private Context mContext;
 
+    /**
+     *
+     * @param context The current context aka current Activity
+     * @param textViewResourceId The resource ID for a layout file containing a TextView to use when instantiating views.
+     * @param list The objects to represent in the ListView.
+     */
     public PlayerListAdapter(Context context, int textViewResourceId,
                              List list) { //--CloneChangeRequired
         super(context, textViewResourceId, list);
